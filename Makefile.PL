@@ -5,7 +5,6 @@ WriteMakefile(
               VERSION_FROM => $module,
               PREREQ_PM    => {
                                'Test::More' => 0,
-                               'Text::Glob' => 0,
                                'File::Find::Rule' => 0.07,
                                'Image::Size' => 0,
                               },

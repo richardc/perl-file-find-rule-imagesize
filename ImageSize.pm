@@ -1,4 +1,4 @@
-# $Id: $
+# $Id$
 package File::Find::Rule::ImageSize;
 use strict;
 use vars qw/$VERSION @EXPORT/;

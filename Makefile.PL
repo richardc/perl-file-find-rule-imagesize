@@ -6,6 +6,7 @@ WriteMakefile(
               PREREQ_PM    => {
                                'Test::More' => 0,
                                'File::Find::Rule' => 0.07,
+                               'Number::Compare' => 0,
                                'Image::Size' => 0,
                               },
               AUTHOR       => 'Richard Clamp <richardc@unixbeard.net>',

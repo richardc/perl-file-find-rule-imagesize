@@ -1,0 +1,7 @@
+^Makefile$
+\.svn
+\.cvsignore
+~$
+MANIFEST.SKIP
+pm_to_blib
+blib

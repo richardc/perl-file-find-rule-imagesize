@@ -1,13 +1,13 @@
 use ExtUtils::MakeMaker;
-my $module = 'MMagic.pm';
+my $module = 'ImageSize.pm';
 WriteMakefile(
-              NAME         => 'File::Find::Rule::MMagic',
+              NAME         => 'File::Find::Rule::ImageSize',
               VERSION_FROM => $module,
               PREREQ_PM    => {
                                'Test::More' => 0,
                                'Text::Glob' => 0,
                                'File::Find::Rule' => 0.07,
-                               'File::MMagic' => 0,
+                               'Image::Size' => 0,
                               },
               AUTHOR       => 'Richard Clamp <richardc@unixbeard.net>',
              );
